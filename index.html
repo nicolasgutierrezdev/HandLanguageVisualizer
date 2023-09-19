@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hand Language</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
 </head>
 
 <body>
-    hola
+    <header>
+        HAND LANGUAGE INTERPRETER
+    </header>
+    <div class="main">
+        <div class="controls">
+            <div>
+                <button class="control run">RUN</button>
+                <button class="control clear">CLEAR</button>
+                <button class="control erase">ERASE</button>
+            </div>
+            <div>
+                <button class="control move-right">👉</button>
+                <button class="control move-left">👈</button>
+                <button class="control sum">👆</button>
+                <button class="control substract">👇</button>
+                <button class="control loop-start">🤜</button>
+                <button class="control loop-end">🤛</button>
+                <button class="control print">👊</button>
+            </div>
+        </div>
+        <textarea class="codeInput"></textarea>
+        <canvas>
+
+        </canvas>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/controls.js"></script>
+    <script src="js/draw.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,15 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    background-color: #666;
+    overflow-x: hidden;
+}
+
+html{
+    width: 100vw;
+    height: fit-content;
+    padding: 0;
+    margin: 0;
+}
