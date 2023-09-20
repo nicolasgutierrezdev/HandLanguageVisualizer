@@ -68,6 +68,16 @@ printButton.addEventListener("click", () => {
     draw()
 })
 
-codeInput.addEventListener("keydown", (e) => {
+const infoButton = document.querySelector("#info-button");
+const closeButton = document.querySelector("#close-info");
+const info = document.querySelector("#info");
 
-})
+infoButton.addEventListener("click", () => {
+    info.classList.remove("hidden");
+}
+)
+
+closeButton.addEventListener("click", () => {
+    info.classList.add("hidden");
+}
+)

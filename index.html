@@ -10,8 +10,31 @@
 </head>
 
 <body>
+    <div id="info" class="hidden">
+        <div>
+            <button id="close-info">X</button>
+        </div>
+        <p>
+            The language works with an array an indefinite size of bytes. The instruccions are the following:<br>
+
+            👉 : moves the memory pointer to the next cell<br>
+
+            👈 : moves the memory pointer to the previous cell<br>
+
+            👆 : increment the memory cell at the current position<br>
+
+            👇 : decreases the memory cell at the current position.<br>
+
+            🤜 : if the memory cell at the current position is 0, jump just after the corresponding 🤛<br>
+
+            🤛 : if the memory cell at the current position is not 0, jump just after the corresponding 🤜<br>
+
+            👊 : Display the current character represented by the ASCII code defined by the current position.<br>
+        </p>
+    </div>
     <header>
         HAND LANGUAGE INTERPRETER
+        <button id="info-button">ⓘ</button>
     </header>
     <div class="main">
         <div class="controls">
